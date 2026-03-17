@@ -1,6 +1,6 @@
-# 🏦 FinGuard AI: Advanced Loan Application Assessment System
+# 🏦 FinCheck AI: Advanced Loan Application Assessment System
 
-**FinGuard AI** is a professional-grade credit appraisal system that replicates the bank lending process. It combines **XGBoost Machine Learning** with a **Rule-Based Expert System** to analyze business financial health, GST compliance, and balance sheet ratios.
+**FinCheck AI** is a professional-grade credit appraisal system that replicates the bank lending process. It combines **XGBoost Machine Learning** with a **Rule-Based Expert System** to analyze business financial health, GST compliance, and balance sheet ratios.
 
 Developed for the B.Tech 2026 Project by **Arjun Sarkar** & **Urvashi Bohare**.
 
