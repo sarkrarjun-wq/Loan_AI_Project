@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FinGuard AI | Red Edition</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: 'Poppins', sans-serif; 
+            background: #0a0a0a; /* True Black */
+            color: #ffffff; 
+            line-height: 1.6; 
+        }
+        
+        nav { 
+            background: rgba(10, 10, 10, 0.9); 
+            padding: 1.5rem 5%; 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+            border-bottom: 2px solid #dc2626; /* Red Border */
+            position: fixed; width: 100%; top: 0; z-index: 100;
+        }
+        .logo { font-weight: 700; font-size: 1.5rem; color: #dc2626; }
+        
+        .hero { 
+            height: 100vh; 
+            display: flex; align-items: center; justify-content: center; text-align: center; 
+            background: radial-gradient(circle at center, #450a0a 0%, #0a0a0a 100%);
+        }
+        .hero-content h1 { font-size: 4rem; margin-bottom: 1.5rem; text-transform: uppercase; letter-spacing: 2px; }
+        .hero-content p { font-size: 1.2rem; color: #a3a3a3; max-width: 800px; margin: 0 auto 2.5rem; }
+        
+        /* Red Glow Button */
+        .btn { 
+            background: #dc2626; 
+            color: white; 
+            padding: 18px 45px; 
+            text-decoration: none; 
+            border-radius: 5px; 
+            font-weight: 700; 
+            transition: all 0.3s ease; 
+            display: inline-block;
+            box-shadow: 0 0 15px rgba(220, 38, 38, 0.5);
+        }
+        .btn:hover { 
+            background: #ffffff; color: #dc2626;
+            transform: translateY(-5px);
+            box-shadow: 0 0 30px rgba(220, 38, 38, 0.8);
+        }
+        
+        footer { text-align: center; padding: 3rem; color: #525252; border-top: 1px solid #262626; }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo"> FinCheck AI</div>
+        <div style="color: #dc2626; font-weight: 600;">Arjun & Urvashi</div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Precision Credit Assessment</h1>
+            <p>Deploying advanced XGBoost algorithms to analyze Balance Sheets and GST Compliance with 98% prediction accuracy.</p>
+            <a href="http://localhost:8501" target="_blank" class="btn">ENTER SECURE PORTAL</a>
+        </div>
+    </section>
+
+    <footer>
+        Designed & Developed by Arjun Sarkar & Urvashi Bohare | Krishna's Vikash Institute of Technology
+    </footer>
+</body>
+</html>
